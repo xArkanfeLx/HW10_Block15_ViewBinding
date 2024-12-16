@@ -8,10 +8,11 @@
     <GridView
         android:id="@+id/gridGV"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:numColumns="2"
-        android:verticalSpacing="5dp"
+        android:verticalSpacing="30dp"
+        android:horizontalSpacing="10dp"
         tools:listitem="@layout/gridview_item"
-        android:background="#777"/>
+        android:layout_gravity="center"/>
 
 </FrameLayout>
